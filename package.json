@@ -10,8 +10,9 @@
   "dependencies": {
     "commander": "^2.19.0",
     "exiftool": "git+https://git@github.com/nathanpeck/exiftool.git",
-    "ramda": "^0.26.1",
-    "winston": "^3.1.0"
+    "ora": "^3.0.0",
+    "progress-stream": "^2.0.0",
+    "ramda": "^0.26.1"
   },
   "devDependencies": {
     "eslint": "^5.12.0",
