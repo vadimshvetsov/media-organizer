@@ -1,7 +1,11 @@
 {
   "name": "media-organizer",
-  "version": "0.0.1",
   "description": "CLI program for creating dedicated folder structure for media by its metadata",
+  "version": "0.0.2",
+  "author": "Vadim Shvetsov <vadim@shvetsov.io>",
+  "bin": {
+    "media-organizer": "lib/index.js"
+  },
   "main": "lib/index.js",
   "dependencies": {
     "commander": "^2.19.0",
@@ -23,7 +27,6 @@
   "scripts": {
     "lint": "eslint ."
   },
-  "author": "Vadim Shvetsov <vadim@shvetsov.io>",
   "license": "ISC",
   "directories": {
     "lib": "lib"
