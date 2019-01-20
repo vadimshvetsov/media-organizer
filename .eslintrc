@@ -1,8 +1,7 @@
 {
-    "extends": "standard",
+    "extends": ["standard", "prettier"],
+    "plugins": ["prettier"],
     "rules": {
-      "semi": ["error", "always"],
-      "quotes": ["error", "single"],
-      "comma-dangle": ["error", "always-multiline"]
+      "prettier/prettier": "error"
     }
 }
