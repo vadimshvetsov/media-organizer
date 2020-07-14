@@ -54,7 +54,8 @@
         "cameraModelName": "Canon PowerShot SX60 HS"
       }
     },
-    { "path": ["Samsung Galaxy"],
+    {
+      "path": ["Samsung Galaxy"],
       "metadata": {
         "mimeType": "video/mp4",
         "majorBrand": "MP4 v2 [ISO 14496-14]",
@@ -102,8 +103,14 @@
       "path": ["Edited"],
       "metadata": {
         "mimeType": "video/mp4",
-        "majorBrand": "MP4  Base Media v1 [IS0 14496-12:2003]",
-        "minorVersion": "0.0.0"
+        "majorBrand": "MP4  Base Media v1 [IS0 14496-12:2003]"
+      }
+    },
+    {
+      "path": ["Edited"],
+      "metadata": {
+        "mimeType": "video/mp4",
+        "majorBrand": "MP4 v2 [ISO 14496-14]"
       }
     },
     {
