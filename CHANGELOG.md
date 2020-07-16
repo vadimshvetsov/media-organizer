@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.1](https://github.com/vadimshvetsov/media-organizer/compare/v0.3.0...v0.3.1) (2020-07-16)
+
+
+### Bug Fixes
+
+* **utils:** Fix date format ([813e210](https://github.com/vadimshvetsov/media-organizer/commit/813e2102c51bc8b738de6c337eb0e5c58e47fb33))
+
 ## [0.3.0](https://github.com/vadimshvetsov/media-organizer/compare/v0.2.0...v0.3.0) (2020-07-14)
 
 <a name="0.2.0"></a>

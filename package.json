@@ -1,7 +1,7 @@
 {
   "name": "media-organizer",
   "description": "CLI program for creating dedicated folder structure for media by its metadata",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "author": "Vadim Shvetsov <vadim@shvetsov.io>",
   "bin": {
     "media-organizer": "lib/index.js"
