@@ -31,6 +31,12 @@
       }
     },
     {
+      "path": ["GoPro HERO10 Black"],
+      "metadata": {
+        "cameraModelName": "HERO10 Black"
+      }
+    },
+    {
       "path": ["Canon EOS 70D"],
       "metadata": {
         "model": "Canon EOS 70D"
