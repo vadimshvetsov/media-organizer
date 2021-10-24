@@ -5,6 +5,18 @@
       "metadata": {
         "cameraModelName": "Canon EOS 5D Mark II"
       }
+    },
+    {
+      "path": ["iPhone 12 Pro"],
+      "metadata": {
+        "cameraModelName": "iPhone 12 Pro"
+      }
+    },
+    {
+      "path": ["iPhone 11 Pro"],
+      "metadata": {
+        "cameraModelName": "iPhone 12 Pro"
+      }
     }
   ]
 }
