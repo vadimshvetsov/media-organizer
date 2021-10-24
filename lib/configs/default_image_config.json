@@ -1,0 +1,10 @@
+{
+  "rules": [
+    {
+      "path": ["Canon EOS 5D Mark II"],
+      "metadata": {
+        "cameraModelName": "Canon EOS 5D Mark II"
+      }
+    }
+  ]
+}
