@@ -1,4 +1,5 @@
 {
+  "defaultFolder": "/",
   "rules": [
     {
       "path": ["iPhone 7"],
