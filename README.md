@@ -27,7 +27,7 @@ sudo apt-get install libimage-exiftool-perl
 For other systems or for information on how to compile exiftool from source refer to the [official documentation for exiftool](http://www.sno.phy.queensu.ca/~phil/exiftool/install.html).
 
 ```bash
-npm install -global media-organizer
+npm i -g media-organizer
 ```
 
 # Usage
