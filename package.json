@@ -1,7 +1,7 @@
 {
   "name": "media-organizer",
   "description": "CLI program for creating dedicated folder structure for media by its metadata",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "author": "Vadim Shvetsov <vadim@shvetsov.io>",
   "bin": {
     "media-organizer": "lib/index.js"
@@ -10,6 +10,7 @@
   "dependencies": {
     "commander": "^2.19.0",
     "exiftool": "git+https://git@github.com/nathanpeck/exiftool.git",
+    "mv": "^2.1.1",
     "ora": "^3.0.0",
     "progress-stream": "^2.0.0",
     "ramda": "^0.26.1"
