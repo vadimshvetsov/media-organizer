@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.7.0](https://github.com/vadimshvetsov/media-organizer/compare/v0.6.1...v0.7.0) (2023-03-12)
+
+
+### Features
+
+* Move from rename to mv for having ability to move files from and to different disks ([308bcd4](https://github.com/vadimshvetsov/media-organizer/commit/308bcd40978590ff14773f66e940dab1745fe98d))
+
 ### [0.6.1](https://github.com/vadimshvetsov/media-organizer/compare/v0.6.0...v0.6.1) (2023-03-12)
 
 ## [0.6.0](https://github.com/vadimshvetsov/media-organizer/compare/v0.5.1...v0.6.0) (2021-11-06)
