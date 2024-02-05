@@ -2,7 +2,10 @@
 import path from 'path'
 import { Command } from 'commander'
 
-import packageJson from '../package.json' with { type: 'json' }
+import { createRequire } from 'module'
+const require = createRequire(import.meta.url)
+const packageJson = require('../package.json')
+
 import { getStructure } from './getStructure.js'
 import { spinner } from './spinner.js'
 import { migrateToStructure } from './migrateToStructure.js'
@@ -19,6 +22,8 @@ if (program.args.length > 0) {
 }
 
 async function copyFiles() {
+  spinner.start()
+
   const location = path.resolve(process.cwd(), program.args[0])
   const destination = path.resolve(process.cwd(), program.args[1])
 
