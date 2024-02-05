@@ -4,35 +4,41 @@
   "version": "0.7.0",
   "author": "Vadim Shvetsov <vadim@shvetsov.io>",
   "bin": {
-    "media-organizer": "lib/index.js"
+    "media-organizer": "dist/index.js"
   },
-  "main": "lib/index.js",
+  "main": "dist/index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=20.10"
+  },
   "dependencies": {
     "commander": "^2.19.0",
     "exiftool": "git+https://git@github.com/nathanpeck/exiftool.git",
-    "mv": "^2.1.1",
-    "ora": "^3.0.0",
+    "ora": "^8.0.1",
     "progress-stream": "^2.0.0",
     "ramda": "^0.26.1"
   },
   "devDependencies": {
-    "eslint": "^5.12.0",
-    "eslint-config-prettier": "^3.6.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-node": "^8.0.1",
-    "eslint-plugin-prettier": "^3.0.1",
-    "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "prettier": "^1.16.0",
-    "standard-version": ">=8.0.1"
+    "@tsconfig/node20": "^20.1.2",
+    "@types/node": "^20.10.4",
+    "@types/progress-stream": "^2.0.5",
+    "@types/ramda": "^0.29.9",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.1.1",
+    "rimraf": "^5.0.5",
+    "standard-version": ">=8.0.1",
+    "typescript": "^5.3.3"
   },
   "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rimraf dist",
+    "dev": "tsc --watch",
     "lint": "eslint .",
     "release": "standard-version"
   },
-  "license": "ISC",
-  "directories": {
-    "lib": "lib"
-  }
+  "license": "MIT"
 }
