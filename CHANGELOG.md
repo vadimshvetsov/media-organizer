@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.1](https://github.com/vadimshvetsov/media-organizer/compare/v0.8.0...v0.8.1) (2024-02-05)
+
+
+### Bug Fixes
+
+* Start spinner on copy and import package.json with require to supress warning ([2bd00f1](https://github.com/vadimshvetsov/media-organizer/commit/2bd00f1ce0c773c1eb3caaee4c7dc136de495a51))
+
 ## [0.8.0](https://github.com/vadimshvetsov/media-organizer/compare/v0.7.0...v0.8.0) (2024-02-05)
 
 
