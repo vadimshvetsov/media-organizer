@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.8.0](https://github.com/vadimshvetsov/media-organizer/compare/v0.7.0...v0.8.0) (2024-02-05)
+
+
+### Features
+
+* Get rid of device names in folders and config, rewritten in TypeScript ([b26b081](https://github.com/vadimshvetsov/media-organizer/commit/b26b0817315551e45fc2a5b38b1fa4499bfe9cc6))
+
 ## [0.7.0](https://github.com/vadimshvetsov/media-organizer/compare/v0.6.1...v0.7.0) (2023-03-12)
 
 
