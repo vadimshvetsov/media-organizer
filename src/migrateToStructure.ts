@@ -31,6 +31,24 @@ export async function migrateToStructure({
         const fileStat = fs.statSync(filePath)
         const newFilePath = path.join(finalFolder, path.basename(filePath))
 
+        if (fs.existsSync(newFilePath) && fileStat.size !== fs.statSync(newFilePath).size) {
+          try {
+            fs.unlinkSync(newFilePath)
+            spinner
+              .warn(`${path.basename(filePath)} was removed from ${finalFolder} for overwrite`)
+              .start()
+          } catch (err) {
+            spinner
+              .fail(
+                `${path.basename(
+                  filePath,
+                )} is already exists at ${finalFolder} but can't be overwritten`,
+              )
+              .start()
+            console.error(err)
+          }
+        }
+
         const str = progress({
           length: fileStat.size,
           time: 100,
