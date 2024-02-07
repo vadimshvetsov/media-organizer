@@ -31,6 +31,7 @@
     "prettier": "^3.1.1",
     "rimraf": "^5.0.5",
     "standard-version": ">=8.0.1",
+    "tsx": "^4.7.0",
     "typescript": "^5.3.3"
   },
   "scripts": {
@@ -38,7 +39,8 @@
     "clean": "rimraf dist",
     "dev": "tsc --watch",
     "lint": "eslint .",
-    "release": "standard-version"
+    "release": "npm run test && standard-version",
+    "test": "node --import tsx --test src/__test__/*.test.ts"
   },
   "license": "MIT"
 }

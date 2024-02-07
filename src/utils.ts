@@ -20,7 +20,7 @@ export function formatBytes(bytes: number): string {
   return parseFloat((bytes / Math.pow(kiloByte, i)).toFixed(2)) + ' ' + sizes[i]
 }
 
-function getDateString(originalDate: Date): string {
+export function getDateString(originalDate: Date): string {
   const date = new Date(originalDate)
   const year = date.getFullYear()
   const month = ('0' + (date.getMonth() + 1)).slice(-2)
