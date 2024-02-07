@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.9.1](https://github.com/vadimshvetsov/media-organizer/compare/v0.9.0...v0.9.1) (2024-02-07)
+
+
+### Bug Fixes
+
+* Add basic flow tests for copyFiles main function ([a39ae12](https://github.com/vadimshvetsov/media-organizer/commit/a39ae12330432142c052adadce0c94064f5d6f35))
+
 ## [0.9.0](https://github.com/vadimshvetsov/media-organizer/compare/v0.8.1...v0.9.0) (2024-02-06)
 
 
